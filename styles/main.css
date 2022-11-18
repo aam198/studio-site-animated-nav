@@ -1,3 +1,13 @@
+:root{
+  --dark-blue: #182944;
+  --med-blue: #526fa7;
+  --gray: #b2b4b8;
+  --purple: #955695;
+  --teal: #63b6b8;
+  --orange: #fc9c5d;
+  --accent-blue: #1a3651;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,10 +20,10 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: #08232d;
+  background-color: var(--dark-blue);
 }
 
 .logo{ 
-  width: 5rem;
+  width: 20rem;
 }
 /* Tan: #ccad57 */
